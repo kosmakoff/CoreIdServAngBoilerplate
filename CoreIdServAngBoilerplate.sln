@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiServer", "ApiServer\ApiServer.csproj", "{EC1D2F41-8C90-4401-B12B-2EE87DD73B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{D5E45DBE-080A-47F5-9C7B-81A3EC833FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{89A47F25-C444-49AC-AAEC-8380F1C052C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC1D2F41-8C90-4401-B12B-2EE87DD73B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1D2F41-8C90-4401-B12B-2EE87DD73B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1D2F41-8C90-4401-B12B-2EE87DD73B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1D2F41-8C90-4401-B12B-2EE87DD73B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E45DBE-080A-47F5-9C7B-81A3EC833FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E45DBE-080A-47F5-9C7B-81A3EC833FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E45DBE-080A-47F5-9C7B-81A3EC833FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E45DBE-080A-47F5-9C7B-81A3EC833FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A47F25-C444-49AC-AAEC-8380F1C052C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A47F25-C444-49AC-AAEC-8380F1C052C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A47F25-C444-49AC-AAEC-8380F1C052C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A47F25-C444-49AC-AAEC-8380F1C052C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
