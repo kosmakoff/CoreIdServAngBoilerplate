@@ -30,7 +30,7 @@ namespace ApiServer
                 app.UseDeveloperExceptionPage();
             }
 
-            // JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 
             app.UseIdentityServerAuthentication(new IdentityServerAuthenticationOptions
             {
